@@ -17,6 +17,7 @@ pub struct Franka {
     model: franka::Model,
 }
 
+#[derive(Debug, Clone, Copy)]
 pub struct ConnectConfig {
     pub address: String,
     pub realtime: bool,
