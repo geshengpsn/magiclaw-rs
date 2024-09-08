@@ -1,0 +1,8 @@
+[package]
+name = "magiclaw-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libfranka-rs = "0.9"
+nalgebra = "0.33.0"
